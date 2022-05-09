@@ -51,7 +51,7 @@ public class ExempleFind {
     System.out.println();
 
     // Comptar la quantitat d'elements
-    System.out.println(collection.count());
+    System.out.println(collection.countDocuments());
 
     // Obtenir tots els valors diferents que té un camp
     collection.distinct("x", Integer.class).forEach((Consumer<? super Integer>) (Integer n)->System.out.println(n));
